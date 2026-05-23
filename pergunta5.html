@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pergunta 5</title>
+
+    <link rel="stylesheet" href="./style_perguntas.css" />
+
+</head>
+<body>
+    
+<div class="pagina_pergunta">
+
+    <h1 class="titulo_pergunta">
+        Pergunta 5
+    </h1>
+
+    <h1 class="titulo_pergunta">
+        Qual é a principal finalidade da memória RAM?
+    </h1>
+
+    <div class="pergunta_parte_cima">
+
+        <div class="pergunta1" onclick="respostaCerta()">
+            Armazenar dados temporários durante a execução dos processos.
+        </div>
+
+        <div class="pergunta2" onclick="respostaErrada()">
+            Guardar permanentemente os arquivos essenciais do sistema.
+        </div>
+
+    </div>
+
+    <div class="pergunta_parte_baixo">
+
+        <div class="pergunta3" onclick="respostaErrada()">
+            Controlar diretamente as operações realizadas pela CPU.
+        </div>
+
+        <div class="pergunta4" onclick="respostaErrada()">
+            Realizar o processamento gráfico das aplicações em execução.
+        </div>
+
+    </div>
+
+</div>
+
+</body>
+</html>
+
+<script>
+
+function respostaCerta(){
+
+    alert("Resposta correta!");
+
+    window.location.href = "pergunta6.html";
+
+}
+
+function respostaErrada(){
+
+    alert("Dica: a memória RAM guarda informações temporárias enquanto os programas estão sendo usados.");
+
+}
+
+</script>

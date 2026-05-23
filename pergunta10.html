@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pergunta 10</title>
+
+    <link rel="stylesheet" href="./style_perguntas.css" />
+
+</head>
+<body>
+    
+<div class="pagina_pergunta">
+
+    <h1 class="titulo_pergunta">
+        Pergunta 10
+    </h1>
+
+    <h1 class="titulo_pergunta">
+        O que é DMA?
+    </h1>
+
+    <div class="pergunta_parte_cima">
+
+        <div class="pergunta1" onclick="respostaCerta()">
+            Tecnologia de acesso direto à memória sem uso constante da CPU.
+        </div>
+
+        <div class="pergunta2" onclick="respostaErrada()">
+            Sistema responsável pelo controle interno da memória cache.
+        </div>
+
+    </div>
+
+    <div class="pergunta_parte_baixo">
+
+        <div class="pergunta3" onclick="respostaErrada()">
+            Método utilizado exclusivamente para acelerar a memória RAM.
+        </div>
+
+        <div class="pergunta4" onclick="respostaErrada()">
+            Estrutura física dedicada à transferência gráfica de dados.
+        </div>
+
+    </div>
+
+</div>
+
+</body>
+</html>
+
+<script>
+
+function respostaCerta(){
+
+    alert("Resposta correta!");
+
+    window.location.href = "pergunta11.html";
+
+}
+
+function respostaErrada(){
+
+    alert("Dica: o DMA permite acessar a memória diretamente sem depender o tempo todo da CPU.");
+
+}
+
+</script>

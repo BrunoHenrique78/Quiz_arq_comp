@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pergunta 12</title>
+
+    <link rel="stylesheet" href="./style_perguntas.css" />
+
+</head>
+<body>
+    
+<div class="pagina_pergunta">
+
+    <h1 class="titulo_pergunta">
+        Pergunta 12
+    </h1>
+
+    <h1 class="titulo_pergunta">
+        O que é o Address Bus?
+    </h1>
+
+    <div class="pergunta_parte_cima">
+
+        <div class="pergunta1" onclick="respostaErrada()">
+            Barramento utilizado para transmissão exclusiva de dados digitais.
+        </div>
+
+        <div class="pergunta2" onclick="respostaCerta()">
+            Conjunto de linhas responsável pelo envio de endereços de memória.
+        </div>
+
+    </div>
+
+    <div class="pergunta_parte_baixo">
+
+        <div class="pergunta3" onclick="respostaErrada()">
+            Sistema responsável pelo controle lógico das memórias secundárias.
+        </div>
+
+        <div class="pergunta4" onclick="respostaErrada()">
+            Tecnologia utilizada para aumentar a velocidade do processamento.
+        </div>
+
+    </div>
+
+</div>
+
+</body>
+</html>
+
+<script>
+
+function respostaCerta(){
+
+    alert("Resposta correta!");
+
+    window.location.href = "pergunta13.html";
+
+}
+
+function respostaErrada(){
+
+    alert("Dica: o Address Bus é responsável por enviar os endereços de memória.");
+
+}
+
+</script>

@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pergunta 29</title>
+
+    <link rel="stylesheet" href="./style_29.css" />
+
+</head>
+<body>
+    
+<div class="pagina_pergunta_29">
+
+    <h1 class="titulo_pergunta_29">
+        Pergunta 29
+    </h1>
+
+    <h1 class="titulo_pergunta_29">
+        Qual diagrama representa corretamente a arquitetura básica de um computador?
+    </h1>
+
+    <div class="pergunta_parte_cima_29">
+
+        <div class="pergunta1_29" onclick="respostaErrada()">
+<pre>
+┌───────────────┐
+│   SAÍDA       │
+│   Monitor     │
+└──────┬────────┘
+       │
+       v
+┌───────────────┐
+│     CPU       │
+│ (Processador) │
+└──────┬────────┘
+       │
+       v
+┌───────────────┐
+│   ENTRADA     │
+│ Teclado/Mouse │
+└───────────────┘
+</pre>
+        </div>
+
+        <div class="pergunta2_29" onclick="respostaCerta()">
+<pre>
+┌───────────────┐
+│   ENTRADA     │
+│ Teclado/Mouse │
+└──────┬────────┘
+       │
+       v
+┌────────────────────────────────────┐
+│               CPU                  │
+│        (Processador)               │
+│  UC - Controle                     │
+│  ULA - Operações                   │
+└──────┬──────────────┬──────────────┘
+       │              │
+       v              v
+┌───────────────┐  ┌───────────────┐
+│     RAM       │  │  HD / SSD     │
+│  Memória      │  │ Armazenamento │
+└──────┬────────┘  └──────┬────────┘
+       └──────────────┬───┘
+                      v
+              ┌───────────────┐
+              │    SAÍDA      │
+              │   Monitor     │
+              └───────────────┘
+</pre>
+        </div>
+
+    </div>
+
+    <div class="pergunta_parte_baixo_29">
+
+        <div class="pergunta3_29" onclick="respostaErrada()">
+<pre>
+┌───────────────┐
+│ ENTRADA       │
+│ Teclado/Mouse │
+└──────┬────────┘
+       │
+       v
+┌───────────────┐
+│   RAM         │
+└──────┬────────┘
+       │
+       v
+┌───────────────┐
+│   CPU         │
+└──────┬────────┘
+       │
+       v
+┌───────────────┐
+│  MONITOR      │
+└───────────────┘
+</pre>
+        </div>
+
+        <div class="pergunta4_29" onclick="respostaErrada()">
+<pre>
+┌───────────────┐
+│   CPU         │
+│ (Processador) │
+└──────┬────────┘
+       │
+       v
+┌───────────────┐
+│  MONITOR      │
+└──────┬────────┘
+       │
+       v
+┌───────────────┐
+│ TECLADO       │
+└──────┬────────┘
+       │
+       v
+┌───────────────┐
+│ HD / SSD      │
+└───────────────┘
+</pre>
+        </div>
+
+    </div>
+
+    </div>
+
+</div>
+
+</body>
+</html>
+
+<script>
+
+function respostaCerta(){
+    alert("Resposta correta!");
+    window.location.href = "final.html";
+}
+
+function respostaErrada(){
+    alert("Dica: o fluxo correto é entrada → CPU → RAM/armazenamento → saída.");
+}
+
+</script>

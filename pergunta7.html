@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pergunta 7</title>
+
+    <link rel="stylesheet" href="./style_perguntas.css" />
+
+</head>
+<body>
+    
+<div class="pagina_pergunta">
+
+    <h1 class="titulo_pergunta">
+        Pergunta 7
+    </h1>
+
+    <h1 class="titulo_pergunta">
+        Qual característica define a memória EPROM?
+    </h1>
+
+    <div class="pergunta_parte_cima">
+
+        <div class="pergunta1" onclick="respostaErrada()">
+            Permitir armazenamento temporário durante o funcionamento do sistema.
+        </div>
+
+        <div class="pergunta2" onclick="respostaCerta()">
+            Possibilitar apagamento e reprogramação do conteúdo gravado.
+        </div>
+
+    </div>
+
+    <div class="pergunta_parte_baixo">
+
+        <div class="pergunta3" onclick="respostaErrada()">
+            Operar exclusivamente como memória cache do processador.
+        </div>
+
+        <div class="pergunta4" onclick="respostaErrada()">
+            Executar cálculos matemáticos juntamente com a CPU.
+        </div>
+
+    </div>
+
+</div>
+
+</body>
+</html>
+
+<script>
+
+function respostaCerta(){
+
+    alert("Resposta correta!");
+
+    window.location.href = "pergunta8.html";
+
+}
+
+function respostaErrada(){
+
+    alert("Dica: a memória EPROM pode ter seus dados apagados e gravados novamente.");
+
+}
+
+</script>

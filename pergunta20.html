@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pergunta 20</title>
+
+    <link rel="stylesheet" href="./style_perguntas.css" />
+
+</head>
+<body>
+    
+<div class="pagina_pergunta">
+
+    <h1 class="titulo_pergunta">
+        Pergunta 20
+    </h1>
+
+    <h1 class="titulo_pergunta">
+        Onde ficam registradores?
+    </h1>
+
+    <div class="pergunta_parte_cima">
+
+        <div class="pergunta1" onclick="respostaCerta()">
+            Estruturas internas presentes dentro da própria CPU.
+        </div>
+
+        <div class="pergunta2" onclick="respostaErrada()">
+            Área reservada temporariamente na memória RAM do sistema.
+        </div>
+
+    </div>
+
+    <div class="pergunta_parte_baixo">
+
+        <div class="pergunta3" onclick="respostaErrada()">
+            Compartimento físico utilizado pelo disco rígido da máquina.
+        </div>
+
+        <div class="pergunta4" onclick="respostaErrada()">
+            Região principal conectada diretamente à placa-mãe do computador.
+        </div>
+
+    </div>
+
+</div>
+
+</body>
+</html>
+
+<script>
+
+function respostaCerta(){
+
+    alert("Resposta correta!");
+
+    window.location.href = "pergunta21.html";
+
+}
+
+function respostaErrada(){
+
+    alert("Dica: os registradores fazem parte da estrutura interna da CPU.");
+
+}
+
+</script>

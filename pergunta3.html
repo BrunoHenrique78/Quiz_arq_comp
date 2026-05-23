@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pergunta 3</title>
+
+    <link rel="stylesheet" href="./style_perguntas.css" />
+
+</head>
+<body>
+    
+<div class="pagina_pergunta">
+
+    <h1 class="titulo_pergunta">
+        Pergunta 3
+    </h1>
+
+    <h1 class="titulo_pergunta">
+        Qual é a principal função da ULA?
+    </h1>
+
+    <div class="pergunta_parte_cima">
+
+        <div class="pergunta1" onclick="respostaErrada()">
+            Realizar o armazenamento permanente dos dados processados.
+        </div>
+
+        <div class="pergunta2" onclick="respostaCerta()">
+            Executar operações lógicas e cálculos matemáticos.
+        </div>
+
+    </div>
+
+    <div class="pergunta_parte_baixo">
+
+        <div class="pergunta3" onclick="respostaErrada()">
+            Controlar dispositivos externos ligados à placa-mãe.
+        </div>
+
+        <div class="pergunta4" onclick="respostaErrada()">
+            Gerenciar o acesso entre memória RAM e memória ROM.
+        </div>
+
+    </div>
+
+</div>
+
+</body>
+</html>
+
+<script>
+
+function respostaCerta(){
+
+    alert("Resposta correta!");
+
+    window.location.href = "pergunta4.html";
+
+}
+
+function respostaErrada(){
+
+    alert("Dica: a ULA é responsável por fazer contas e operações lógicas dentro da CPU.");
+
+}
+
+</script>

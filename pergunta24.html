@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pergunta 24</title>
+
+    <link rel="stylesheet" href="./style_perguntas.css" />
+
+
+</head>
+<body>
+    
+<div class="pagina_pergunta">
+
+    <h1 class="titulo_pergunta">
+        Pergunta 24
+    </h1>
+
+    <h1 class="titulo_pergunta">
+        Qual é uma desvantagem do Intel i7?
+    </h1>
+
+    <div class="pergunta_parte_cima">
+
+        <div class="pergunta1" onclick="respostaErrada()">
+            Desempenho reduzido em aplicações de alto processamento.
+        </div>
+
+        <div class="pergunta2" onclick="respostaCerta()">
+            Maior consumo energético e custo elevado.
+        </div>
+
+    </div>
+
+    <div class="pergunta_parte_baixo">
+
+        <div class="pergunta3" onclick="respostaErrada()">
+            Falta de suporte para tecnologias de virtualização.
+        </div>
+
+        <div class="pergunta4" onclick="respostaErrada()">
+            Utilização restrita apenas para computadores corporativos.
+        </div>
+    
+    </div>
+
+    </div>
+
+</div>
+
+</body>
+</html>
+
+<script>
+
+function respostaCerta(){
+    alert("Resposta correta!");
+    window.location.href = "pergunta25.html";
+}
+
+function respostaErrada(){
+    alert("Dica: o i7 é um processador de alto desempenho, mas tem custo e consumo energético maiores.");
+}
+
+</script>

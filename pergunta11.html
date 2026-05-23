@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pergunta 11</title>
+
+    <link rel="stylesheet" href="./style_perguntas.css" />
+
+</head>
+<body>
+    
+<div class="pagina_pergunta">
+
+    <h1 class="titulo_pergunta">
+        Pergunta 11
+    </h1>
+
+    <h1 class="titulo_pergunta">
+        Qual é a função do Chip Select (CS)?
+    </h1>
+
+    <div class="pergunta_parte_cima">
+
+        <div class="pergunta1" onclick="respostaErrada()">
+            Realizar o gerenciamento elétrico completo do sistema computacional.
+        </div>
+
+        <div class="pergunta2" onclick="respostaCerta()">
+            Selecionar qual chip deverá responder à comunicação realizada.
+        </div>
+
+    </div>
+
+    <div class="pergunta_parte_baixo">
+
+        <div class="pergunta3" onclick="respostaErrada()">
+            Executar operações matemáticas junto à unidade lógica da CPU.
+        </div>
+
+        <div class="pergunta4" onclick="respostaErrada()">
+            Armazenar temporariamente instruções utilizadas pelo processador.
+        </div>
+
+    </div>
+
+</div>
+
+</body>
+</html>
+
+<script>
+
+function respostaCerta(){
+
+    alert("Resposta correta!");
+
+    window.location.href = "pergunta12.html";
+
+}
+
+function respostaErrada(){
+
+    alert("Dica: o Chip Select serve para escolher qual chip irá responder à comunicação.");
+
+}
+
+</script>

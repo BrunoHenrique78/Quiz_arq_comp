@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pergunta 21</title>
+
+    <link rel="stylesheet" href="./style_perguntas.css" />
+
+</head>
+<body>
+    
+<div class="pagina_pergunta">
+
+    <h1 class="titulo_pergunta">
+        Pergunta 21
+    </h1>
+
+    <h1 class="titulo_pergunta">
+        Quando surgiu a linha Intel i7?
+    </h1>
+
+    <div class="pergunta_parte_cima">
+
+        <div class="pergunta1" onclick="respostaCerta()">
+            Foi lançada pela Intel no ano de 2008.
+        </div>
+
+        <div class="pergunta2" onclick="respostaErrada()">
+            Surgiu inicialmente durante a década de 1990.
+        </div>
+
+    </div>
+
+    <div class="pergunta_parte_baixo">
+
+        <div class="pergunta3" onclick="respostaErrada()">
+            Foi desenvolvida pela AMD em parceria com a Intel.
+        </div>
+
+        <div class="pergunta4" onclick="respostaErrada()">
+            Começou a ser produzida apenas após o ano de 2015.
+        </div>
+
+    </div>
+
+</div>
+
+</body>
+</html>
+
+<script>
+
+function respostaCerta(){
+
+    alert("Resposta correta!");
+
+    window.location.href = "pergunta22.html";
+
+}
+
+function respostaErrada(){
+
+    alert("Dica: a linha Intel i7 surgiu antes de 2010.");
+
+}
+
+</script>

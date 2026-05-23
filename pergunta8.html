@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pergunta 8</title>
+
+    <link rel="stylesheet" href="./style_perguntas.css" />
+
+</head>
+<body>
+    
+<div class="pagina_pergunta">
+
+    <h1 class="titulo_pergunta">
+        Pergunta 8
+    </h1>
+
+    <h1 class="titulo_pergunta">
+        Qual é a principal característica da memória Flash?
+    </h1>
+
+    <div class="pergunta_parte_cima">
+
+        <div class="pergunta1" onclick="respostaCerta()">
+            Permitir armazenamento não volátil com rápida regravação.
+        </div>
+
+        <div class="pergunta2" onclick="respostaErrada()">
+            Atuar exclusivamente como memória lógica da placa-mãe.
+        </div>
+
+    </div>
+
+    <div class="pergunta_parte_baixo">
+
+        <div class="pergunta3" onclick="respostaErrada()">
+            Executar funções gráficas integradas ao processador central.
+        </div>
+
+        <div class="pergunta4" onclick="respostaErrada()">
+            Servir apenas para controle físico dos dispositivos externos.
+        </div>
+
+    </div>
+
+</div>
+
+</body>
+</html>
+
+<script>
+
+function respostaCerta(){
+
+    alert("Resposta correta!");
+
+    window.location.href = "pergunta9.html";
+
+}
+
+function respostaErrada(){
+
+    alert("Dica: a memória Flash consegue guardar dados mesmo sem energia e permite regravações rápidas.");
+
+}
+
+</script>

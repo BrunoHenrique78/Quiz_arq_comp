@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pergunta 13</title>
+
+    <link rel="stylesheet" href="./style_perguntas.css" />
+
+</head>
+<body>
+    
+<div class="pagina_pergunta">
+
+    <h1 class="titulo_pergunta">
+        Pergunta 13
+    </h1>
+    
+    <h1 class="titulo_pergunta">
+        O que é o Data Bus?
+    </h1>
+
+    <div class="pergunta_parte_cima">
+
+        <div class="pergunta1" onclick="respostaErrada()">
+            Estrutura responsável apenas pelo controle físico do hardware.
+        </div>
+
+        <div class="pergunta2" onclick="respostaCerta()">
+            Barramento utilizado para transferência de dados entre componentes.
+        </div>
+
+    </div>
+
+    <div class="pergunta_parte_baixo">
+
+        <div class="pergunta3" onclick="respostaErrada()">
+            Sistema dedicado exclusivamente ao gerenciamento da memória ROM.
+        </div>
+
+        <div class="pergunta4" onclick="respostaErrada()">
+            Tecnologia aplicada ao armazenamento temporário de informações.
+        </div>
+
+    </div>
+
+</div>
+
+</body>
+</html>
+
+<script>
+
+function respostaCerta(){
+
+    alert("Resposta correta!");
+
+    window.location.href = "pergunta14.html";
+
+}
+
+function respostaErrada(){
+
+    alert("Dica: o Data Bus é responsável pela transferência de dados entre os componentes.");
+
+}
+
+</script>

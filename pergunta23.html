@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pergunta 23</title>
+
+    <link rel="stylesheet" href="./style_perguntas.css" />
+
+</head>
+<body>
+    
+<div class="pagina_pergunta">
+
+    <h1 class="titulo_pergunta">
+        Pergunta 23
+    </h1>
+
+    <h1 class="titulo_pergunta">
+        Qual é uma desvantagem do Intel i5?
+    </h1>
+
+    <div class="pergunta_parte_cima">
+
+        <div class="pergunta1" onclick="respostaCerta()">
+            Menor desempenho em multitarefas comparado ao i7.
+        </div>
+
+        <div class="pergunta2" onclick="respostaErrada()">
+            Incompatibilidade total com memórias modernas do mercado.
+        </div>
+
+    </div>
+
+    <div class="pergunta_parte_baixo">
+
+        <div class="pergunta3" onclick="respostaErrada()">
+            Ausência de suporte a sistemas operacionais atuais.
+        </div>
+
+        <div class="pergunta4" onclick="respostaErrada()">
+            Incapacidade de executar softwares de produtividade básicos.
+        </div>
+
+    </div>
+
+</div>
+
+</body>
+</html>
+
+<script>
+
+function respostaCerta(){
+
+    alert("Resposta correta!");
+
+    window.location.href = "pergunta24.html";
+
+}
+
+function respostaErrada(){
+
+    alert("Dica: o i5 é bom, mas perde em multitarefas para o i7.");
+
+}
+
+</script>
